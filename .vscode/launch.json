@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ForexServiceApplication<forex-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "dev.ronniemoncayo.forex.ForexServiceApplication",
+            "projectName": "forex-service",
+            "args": ""
+        }
+    ]
+}
