@@ -9,7 +9,7 @@ import dev.ronniemoncayo.currencyconversionservice.beans.CurrencyConversionBean;
 /**
  * CurrencyExchangeServiceProxy
  */
-@FeignClient(name = "forex-service", url = "localhost:8000")
+@FeignClient(name = "forex-service")
 public interface CurrencyExchangeServiceProxy {
 
     @GetMapping("/currency-exchange/from/{from}/to/{to}")
