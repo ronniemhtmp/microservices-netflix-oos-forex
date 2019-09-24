@@ -9,6 +9,25 @@
             "mainClass": "dev.ronniemoncayo.forex.ForexServiceApplication",
             "projectName": "forex-service",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CurrencyConversionServiceApplication",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "dev.ronniemoncayo.currencyconversionservice.CurrencyConversionServiceApplication",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CurrencyConversionServiceApplication<currency-conversion-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "dev.ronniemoncayo.currencyconversionservice.CurrencyConversionServiceApplication",
+            "projectName": "currency-conversion-service",
+            "args": ""
         }
     ]
 }
