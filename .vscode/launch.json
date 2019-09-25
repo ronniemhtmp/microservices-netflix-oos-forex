@@ -28,6 +28,16 @@
             "mainClass": "dev.ronniemoncayo.currencyconversionservice.CurrencyConversionServiceApplication",
             "projectName": "currency-conversion-service",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaNamingServerApplication<eureka-naming-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "dev.ronniemoncayo.eurekanamingserver.EurekaNamingServerApplication",
+            "projectName": "eureka-naming-server",
+            "args": ""
         }
     ]
 }
